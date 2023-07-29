@@ -1,0 +1,98 @@
+.topbar-container {
+     height: 70px;
+     width: 100%;
+     background-color: blue;
+     display: flex;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+}
+.topbar-left {
+    flex: 3;
+}
+.hamburger {
+    display: none;
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.search-bar {
+    width: 90%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    padding: 0 10px;
+}
+.search-input {
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    width: 70%;
+    outline: none;
+}
+.topbar-right {
+    flex: 3;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbar-link {
+   margin-right: 10px;
+   font-size: 16px;
+   cursor: pointer;
+}
+.topbar-center {
+    flex: 3;
+   
+}
+.topbar-icons {
+    display: flex;
+}
+.topbar-icon-items {
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.icons {
+    font-size: 20px;
+}
+.topbar-icon-badge {
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    text-align: center;  
+}
+.topbar-img {
+    height: 50px; 
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+    .search-bar {
+        display: none;
+    }
+    .topbar-links {
+        display: none;
+    }
+    .topbar-icon-items{
+        margin: 15px;
+    }
+    .topbar-img{
+        margin: 0 10px;
+    }
+   
+}

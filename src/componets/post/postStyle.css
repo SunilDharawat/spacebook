@@ -1,0 +1,92 @@
+.post {
+    width: 100%;
+    background-color: rgb(220, 233, 244);
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+.post-wrapper {
+    padding: 10px;
+   
+}
+.post-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-top-left {
+    display: flex;
+    align-items: center;
+}
+.post-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.post-user-name {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.post-top-right {
+    cursor: pointer;
+    margin-right: 20px;
+}
+.post-date {
+    font-size: 12px;
+}
+.img-post {
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500;
+    cursor: pointer;
+}
+.post-center { 
+    margin: 20px 0;
+
+}
+.post-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.post-button-left {
+    display: flex;
+    align-items:center;
+}
+.post-icon-one {
+     font-size: 30px;
+     color: red;
+     margin: 5px;
+     cursor: pointer;
+}
+.post-icon-two {
+    font-size: 30px;
+    color:blue;
+    margin: 5px;
+    cursor: pointer;
+   
+}
+.post-like-counter {
+    font-size: 15px;
+    font-weight: 500;
+}
+.post-button-right {
+    display: flex;
+    align-items:center;
+}
+.post-comment-counter {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.post-comment {
+    font-size: 25px;
+    color:gray;
+    margin-right:  7px;
+    cursor: pointer;
+}
